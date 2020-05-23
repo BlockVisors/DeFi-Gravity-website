@@ -48,43 +48,12 @@ import InvoicePage from "views/examples/InvoicePage.jsx";
 import CheckoutPage from "views/examples/CheckoutPage.jsx";
 import ChatPage from "views/examples/ChatPage.jsx";
 
-import Portis from '@portis/web3';
-import Web3 from 'web3';
+
 import "./styles.css";
 
 //need dApp id and specifiy network
 //const portis = new Portis('YOUR_DAPP_ID', 'mainnet');
-const portis = new Portis("211b48db-e8cc-4b68-82ad-bf781727ea9e", "rinkeby", {
-  scope: ["email"]
-});
-const web3 = new Web3(portis.provider);
 
-web3.eth.getAccounts((error, accounts) => {
-  console.log(accounts);
-});
-
-
-
-
-portis.onLogin((walletAddress, email) => {
-  document.getElementById("app").innerHTML = `
-  <div> Wallet Address: ${walletAddress} </div>
-  <div> Email: ${email} </div>
-`;
-});
-
-portis.onLogout(() => {
-  console.log('User logged out');
-});
-
-portis.onActiveWalletChanged(walletAddress => {
-  console.log('Active wallet address:', walletAddress);
-});
-
-portis.onError(error => {
-  console.log('error', error);
-});
-portis.showPortis();
 
 
 ReactDOM.render(
