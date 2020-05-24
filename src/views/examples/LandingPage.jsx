@@ -35,6 +35,8 @@ import {
 
 // core components
 import ColorNavbar from "components/Navbars/ColorNavbar.jsx";
+import BVNavbar from "components/Navbars/BVNavbar.jsx";
+
 import DemoFooter from "components/Footers/DemoFooter.jsx";
 
 import { chartExample1 } from "variables/charts.js";
@@ -52,7 +54,8 @@ class LandingPage extends React.Component {
   render() {
     return (
       <>
-        <ColorNavbar />
+      <BVNavbar/>
+        {/* <ColorNavbar /> */}
         <div className="wrapper" ref="wrapper">
           <div className="page-header">
             <img
@@ -88,18 +91,18 @@ class LandingPage extends React.Component {
             <Container>
               <Row className="row-grid justify-content-between align-items-center text-left">
                 <Col lg="6" md="6">
-                  <h1 className="text-white">
-                    We keep your coin <br />
-                    <span className="text-white">secured</span>
+                  <h1 className="text-white" id="header-1">
+                    Down to Earth <br />
+                    <span className="text-white">DeFi Education</span>
                   </h1>
-                  <p className="text-white mb-3">
-                    A wonderful serenity has taken possession of my entire soul,
-                    like these sweet mornings of spring which I enjoy with my
-                    whole heart. I am alone, and feel...
+                  <p className="text-white mb-3" id="subheader">
+                  DeFi Gravity is a platform for on-boarding of decentralized finance startups 
+                  in the blockchain space. It includes gamification, incentives, education, news
+                   and articles. It is intended for both developers and investors alike.
                   </p>
                   <div className="btn-wrapper mb-3">
                     <p className="category text-success d-inline">
-                      From 9.99%/mo
+                      Learn more
                     </p>
                     <Button
                       className="btn-link"
