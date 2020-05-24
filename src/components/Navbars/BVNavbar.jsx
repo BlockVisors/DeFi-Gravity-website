@@ -73,7 +73,7 @@ class BVNavbar extends React.Component {
             <div className="navbar-translate">
               <NavbarBrand to="/index" tag={Link} id="tooltip6619950104">
               <img
-              src={require("assets/img/DefiLogoGray.png")}
+              src={require("assets/img/DefiGravityLogoWhite.png")}
               width="184"
               height="56"
               className="d-inline-block align-middle"
@@ -106,7 +106,36 @@ class BVNavbar extends React.Component {
                 </Row>
               </div>
               <Nav className="ml-auto" navbar>
-               
+              <UncontrolledDropdown color="success" nav>
+                  <DropdownToggle caret color="success" nav>
+                    <i className="fa fa-cogs d-lg-none d-xl-none" />
+                      XDEFI                  
+                    </DropdownToggle>
+                  <DropdownMenu className="dropdown-with-icons">
+                    <DropdownItem to="/index" tag={Link}>
+                      <i className="tim-icons icon-paper" />
+                      About
+                    </DropdownItem>
+                    <DropdownItem to="/presentation" tag={Link}>
+                      <i className="tim-icons icon-bullet-list-67" />
+                      Get Token
+                    </DropdownItem>
+                    <DropdownItem
+                      href="https://demos.creative-tim.com/blk-design-system-pro-react/#/documentation/overview?ref=blkdspr-pages-navbar"
+                      target="_blank"
+                    >
+                      <i className="tim-icons icon-book-bookmark" />
+                      Get Wallet
+                    </DropdownItem>
+                    <DropdownItem
+                      href="https://demos.creative-tim.com/blk-design-system-pro-react/#/documentation/overview?ref=blkdspr-pages-navbar"
+                      target="_blank"
+                    >
+                      <i className="tim-icons icon-book-bookmark" />
+                      Token Faq
+                    </DropdownItem>
+                  </DropdownMenu>
+                </UncontrolledDropdown>
               <UncontrolledDropdown nav>
                   <DropdownToggle caret color="default" nav>
                     <i className="fa fa-cogs d-lg-none d-xl-none" />
@@ -115,18 +144,25 @@ class BVNavbar extends React.Component {
                   <DropdownMenu className="dropdown-with-icons">
                     <DropdownItem to="/index" tag={Link}>
                       <i className="tim-icons icon-paper" />
-                      Components
+                      About
                     </DropdownItem>
                     <DropdownItem to="/presentation" tag={Link}>
                       <i className="tim-icons icon-bullet-list-67" />
-                      Presentation Page
+                      Challenges
                     </DropdownItem>
                     <DropdownItem
                       href="https://demos.creative-tim.com/blk-design-system-pro-react/#/documentation/overview?ref=blkdspr-pages-navbar"
                       target="_blank"
                     >
                       <i className="tim-icons icon-book-bookmark" />
-                      Documentation
+                      Education
+                    </DropdownItem>
+                    <DropdownItem
+                      href="https://demos.creative-tim.com/blk-design-system-pro-react/#/documentation/overview?ref=blkdspr-pages-navbar"
+                      target="_blank"
+                    >
+                      <i className="tim-icons icon-book-bookmark" />
+                      Investor Faq
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
@@ -138,7 +174,7 @@ class BVNavbar extends React.Component {
                   <DropdownMenu right>
                     <DropdownItem to="/sections#headers" tag={Link}>
                       <i className="tim-icons icon-app" />
-                      Headers
+                      About
                     </DropdownItem>
                     <DropdownItem to="/sections#features" tag={Link}>
                       <i className="tim-icons icon-settings" />
@@ -146,35 +182,23 @@ class BVNavbar extends React.Component {
                     </DropdownItem>
                     <DropdownItem to="/sections#blogs" tag={Link}>
                       <i className="tim-icons icon-align-left-2" />
-                      Blogs
+                      Tutorials
                     </DropdownItem>
                     <DropdownItem to="/sections#teams" tag={Link}>
                       <i className="tim-icons icon-user-run" />
-                      Teams
+                      Challenges
                     </DropdownItem>
                     <DropdownItem to="/sections#projects" tag={Link}>
                       <i className="tim-icons icon-paper" />
                       Projects
                     </DropdownItem>
-                    <DropdownItem to="/sections#pricing" tag={Link}>
-                      <i className="tim-icons icon-money-coins" />
-                      Pricing
-                    </DropdownItem>
-                    <DropdownItem to="/sections#testimonials" tag={Link}>
-                      <i className="tim-icons icon-chat-33" />
-                      Testimonials
-                    </DropdownItem>
-                    <DropdownItem to="/sections#contactus" tag={Link}>
-                      <i className="tim-icons icon-mobile" />
-                      Contact Us
-                    </DropdownItem>
                     <DropdownItem to="/sections#tables" tag={Link}>
                       <i className="tim-icons icon-chart-bar-32" />
-                      Tables
+                      Get Started
                     </DropdownItem>
                     <DropdownItem to="/sections#accordion" tag={Link}>
                       <i className="tim-icons icon-paper" />
-                      Accordion
+                     Developer Faq
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
@@ -184,7 +208,7 @@ class BVNavbar extends React.Component {
                       aria-hidden={true}
                       className="tim-icons icon-book-bookmark"
                     />
-                    <p>Examples</p>
+                    <p>Info</p>
                   </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem to="/about-us" tag={Link}>
@@ -193,90 +217,18 @@ class BVNavbar extends React.Component {
                     </DropdownItem>
                     <DropdownItem to="/blog-post" tag={Link}>
                       <i className="tim-icons icon-align-center" />
-                      Blog Post
-                    </DropdownItem>
-                    <DropdownItem to="/blog-posts" tag={Link}>
-                      <i className="tim-icons icon-chart-bar-32" />
-                      Blog Posts
+                      Blog Articles
                     </DropdownItem>
                     <DropdownItem to="/contact-us" tag={Link}>
                       <i className="tim-icons icon-square-pin" />
                       Contact Us
                     </DropdownItem>
-                    <DropdownItem to="/landing-page" tag={Link}>
-                      <i className="tim-icons icon-paper" />
-                      Landing Page
-                    </DropdownItem>
-                    <DropdownItem to="/pricing" tag={Link}>
-                      <i className="tim-icons icon-coins" />
-                      Pricing
-                    </DropdownItem>
-                    <DropdownItem to="/ecommerce" tag={Link}>
-                      <i className="tim-icons icon-basket-simple" />
-                      Ecommerce Page
-                    </DropdownItem>
-                    <DropdownItem to="/product-page" tag={Link}>
-                      <i className="tim-icons icon-bag-16" />
-                      Product Page
-                    </DropdownItem>
                     <DropdownItem to="/profile-page" tag={Link}>
                       <i className="tim-icons icon-lock-circle" />
-                      Profile Page
+                      Roadmap
                     </DropdownItem>
-                    <DropdownItem to="/404-error" tag={Link}>
-                      <i className="tim-icons icon-button-power" />
-                      404 Error Page
-                    </DropdownItem>
-                    <DropdownItem to="/500-error" tag={Link}>
-                      <i className="tim-icons icon-alert-circle-exc" />
-                      500 Error Page
-                    </DropdownItem>
-                    <UncontrolledDropdown>
-                      <DropdownToggle
-                        caret
-                        color="default"
-                        className="dropdown-item"
-                        tag="a"
-                        href="#pablo"
-                        onClick={e => e.preventDefault()}
-                      >
-                        <i
-                          aria-hidden={true}
-                          className="tim-icons icon-book-bookmark"
-                        />
-                        App Pages
-                      </DropdownToggle>
-                      <DropdownMenu>
-                        <DropdownItem to="/account-settings" tag={Link}>
-                          <i className="tim-icons icon-lock-circle" />
-                          Account Settings
-                        </DropdownItem>
-                        <DropdownItem to="/login-page" tag={Link}>
-                          <i className="tim-icons icon-tablet-2" />
-                          Login Page
-                        </DropdownItem>
-                        <DropdownItem to="/register-page" tag={Link}>
-                          <i className="tim-icons icon-laptop" />
-                          Register Page
-                        </DropdownItem>
-                        <DropdownItem to="/reset-page" tag={Link}>
-                          <i className="tim-icons icon-molecule-40" />
-                          Reset Page
-                        </DropdownItem>
-                        <DropdownItem to="/invoice-page" tag={Link}>
-                          <i className="tim-icons icon-notes" />
-                          Invoice Page
-                        </DropdownItem>
-                        <DropdownItem to="/checkout-page" tag={Link}>
-                          <i className="tim-icons icon-basket-simple" />
-                          Checkout Page
-                        </DropdownItem>
-                        <DropdownItem to="/chat-page" tag={Link}>
-                          <i className="tim-icons icon-email-85" />
-                          Chat Page
-                        </DropdownItem>
-                      </DropdownMenu>
-                    </UncontrolledDropdown>
+                    
+                  
                   </DropdownMenu>
                 </UncontrolledDropdown>
                 <NavItem>

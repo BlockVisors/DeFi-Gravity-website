@@ -37,8 +37,16 @@ class DemoFooter extends React.Component {
           <Container>
             <Row>
               <Col md="3">
-                <h1 className="title">BLK• React</h1>
-              </Col>
+              <img
+              src={require("assets/img/DefiGravityLogoWhite.png")}
+              width="180"
+              height="52"
+              className="title"
+              //alt="React Bootstrap logo"
+              />
+              <br/>
+              <p id="footer-text">DeFi Gravity is platform with a goal of demystifying the Blockchain and DeFi space</p>
+          </Col>
               <Col md="3" xs="6">
                 <Nav>
                   <NavItem>
@@ -102,6 +110,39 @@ class DemoFooter extends React.Component {
               <Col md="3">
                 <h3 className="title">Follow us:</h3>
                 <div className="btn-wrapper profile text-left">
+                  <Button
+                    className="btn-icon btn-neutral btn-round btn-simple"
+                    color="default"
+                    href="https://twitter.com/creativetim"
+                    id="tooltip39661217"
+                    target="_blank"
+                  >
+                    <i className="fab fa-twitter" />
+                  </Button>
+                  <UncontrolledTooltip delay={0} target="tooltip39661217">
+                    Follow us
+                  </UncontrolledTooltip>
+                  <Button
+                    className="btn-icon btn-neutral btn-round btn-simple ml-1"
+                    color="default"
+                    href="https://www.facebook.com/creativetim"
+                    id="tooltip206037619"
+                    target="_blank"
+                  >
+                    <i className="fab fa-facebook-square" />
+                  </Button>
+                  <UncontrolledTooltip delay={0} target="tooltip206037619">
+                    Like us
+                  </UncontrolledTooltip>
+                  <Button
+                    className="btn-icon btn-neutral btn-round btn-simple ml-1"
+                    color="default"
+                    href="https://dribbble.com/creativetim"
+                    id="tooltip750293512"
+                    target="_blank"
+                  >
+                    <i className="fab fa-dribbble" />
+                  </Button>
                   <Button
                     className="btn-icon btn-neutral btn-round btn-simple"
                     color="default"

@@ -38,6 +38,9 @@ import ColorNavbar from "components/Navbars/ColorNavbar.jsx";
 import BVNavbar from "components/Navbars/BVNavbar.jsx";
 
 import DemoFooter from "components/Footers/DemoFooter.jsx";
+import DeFiParters from "../SectionsSections/DeFiPartners.jsx";
+import DeFiFaq from "../SectionsSections/DeFiFaq.jsx";
+
 
 import { chartExample1 } from "variables/charts.js";
 
@@ -57,7 +60,7 @@ class LandingPage extends React.Component {
       <BVNavbar/>
         {/* <ColorNavbar /> */}
         <div className="wrapper" ref="wrapper">
-          <div className="page-header">
+          <div className="page-header" id="main-header">
             <img
               alt="..."
               className="path"
@@ -153,6 +156,7 @@ class LandingPage extends React.Component {
               </Row>
             </Container>
           </div>
+
           <section className="section section-lg">
             <section className="section">
               <img
@@ -160,7 +164,8 @@ class LandingPage extends React.Component {
                 className="path"
                 src={require("assets/img/path4.png")}
               />
-              <Container>
+              <DeFiParters/>
+              {/* <Container>
                 <Row className="row-grid justify-content-between">
                   <Col className="mt-lg-5" md="5">
                     <Row>
@@ -278,7 +283,7 @@ class LandingPage extends React.Component {
                     </div>
                   </Col>
                 </Row>
-              </Container>
+              </Container> */}
             </section>
           </section>
           <section className="section section-lg">
@@ -297,57 +302,7 @@ class LandingPage extends React.Component {
               className="path3"
               src={require("assets/img/path2.png")}
             />
-            <Container>
-              <Row className="justify-content-center">
-                <Col lg="12">
-                  <h1 className="text-center">Your best benefit</h1>
-                  <Row className="row-grid justify-content-center">
-                    <Col lg="3">
-                      <div className="info">
-                        <div className="icon icon-primary">
-                          <i className="tim-icons icon-money-coins" />
-                        </div>
-                        <h4 className="info-title">Low Commission</h4>
-                        <hr className="line-primary" />
-                        <p>
-                          Divide details about your work into parts. Write a few
-                          lines about each one. A paragraph describing a feature
-                          will.
-                        </p>
-                      </div>
-                    </Col>
-                    <Col lg="3">
-                      <div className="info">
-                        <div className="icon icon-warning">
-                          <i className="tim-icons icon-chart-pie-36" />
-                        </div>
-                        <h4 className="info-title">High Incomes</h4>
-                        <hr className="line-warning" />
-                        <p>
-                          Divide details about your product or agency work into
-                          parts. Write a few lines about each one. A paragraph
-                          describing feature will be a feature.
-                        </p>
-                      </div>
-                    </Col>
-                    <Col lg="3">
-                      <div className="info">
-                        <div className="icon icon-success">
-                          <i className="tim-icons icon-single-02" />
-                        </div>
-                        <h4 className="info-title">Verified People</h4>
-                        <hr className="line-success" />
-                        <p>
-                          Divide details about your product or agency work into
-                          parts. Write a few lines about each one. A paragraph
-                          describing be enough.
-                        </p>
-                      </div>
-                    </Col>
-                  </Row>
-                </Col>
-              </Row>
-            </Container>
+           
           </section>
           <section className="section section-lg section-safe">
             <img
@@ -591,6 +546,7 @@ class LandingPage extends React.Component {
               </Row>
             </Container>
           </section>
+          <DeFiFaq />
           <DemoFooter />
         </div>
       </>

@@ -1556,3 +1556,15 @@
   font-size: 16px;
   color: #c38775;
 }
+
+#main-header {
+  padding-top: 60px;
+}
+
+#footer-text {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+ 
+}
