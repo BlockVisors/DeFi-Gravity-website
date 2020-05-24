@@ -56,17 +56,17 @@ class DemoFooter extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink to="/landing-page" tag={Link}>
-                      Landing
+                      Launch App
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink to="/register-page" tag={Link}>
-                      Register
+                      XDEFI Token
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink to="/profile-page" tag={Link}>
-                      Profile
+                      FAQ
                     </NavLink>
                   </NavItem>
                 </Nav>
@@ -78,7 +78,7 @@ class DemoFooter extends React.Component {
                       href="https://creative-tim.com/contact-us?ref=blkdspr-footer"
                       target="_blank"
                     >
-                      Contact Us
+                      Contact
                     </NavLink>
                   </NavItem>
                   <NavItem>
@@ -86,7 +86,7 @@ class DemoFooter extends React.Component {
                       href="https://creative-tim.com/about-us?ref=blkdspr-footer"
                       target="_blank"
                     >
-                      About Us
+                      About
                     </NavLink>
                   </NavItem>
                   <NavItem>
@@ -94,7 +94,7 @@ class DemoFooter extends React.Component {
                       href="http://creative-tim.com/blog?ref=blkdspr-footer"
                       target="_blank"
                     >
-                      Blog
+                      Medium
                     </NavLink>
                   </NavItem>
                   <NavItem>
@@ -102,7 +102,7 @@ class DemoFooter extends React.Component {
                       href="https://opensource.org/licenses/MIT?ref=blkdspr-footer"
                       target="_blank"
                     >
-                      License
+                      Education
                     </NavLink>
                   </NavItem>
                 </Nav>
@@ -141,7 +141,7 @@ class DemoFooter extends React.Component {
                     id="tooltip750293512"
                     target="_blank"
                   >
-                    <i className="fab fa-dribbble" />
+                    <i className="fab fa-youtube" />
                   </Button>
                   <Button
                     className="btn-icon btn-neutral btn-round btn-simple"
@@ -150,7 +150,7 @@ class DemoFooter extends React.Component {
                     id="tooltip39661217"
                     target="_blank"
                   >
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-instagram" />
                   </Button>
                   <UncontrolledTooltip delay={0} target="tooltip39661217">
                     Follow us
@@ -162,7 +162,7 @@ class DemoFooter extends React.Component {
                     id="tooltip206037619"
                     target="_blank"
                   >
-                    <i className="fab fa-facebook-square" />
+                    <i className="fab fa-medium" />
                   </Button>
                   <UncontrolledTooltip delay={0} target="tooltip206037619">
                     Like us
@@ -170,11 +170,35 @@ class DemoFooter extends React.Component {
                   <Button
                     className="btn-icon btn-neutral btn-round btn-simple ml-1"
                     color="default"
-                    href="https://dribbble.com/creativetim"
+                    href="https://dribbble.com"
                     id="tooltip750293512"
                     target="_blank"
                   >
-                    <i className="fab fa-dribbble" />
+                    <i className="fab fa-github" />
+                  </Button>
+                  <UncontrolledTooltip delay={0} target="tooltip750293512">
+                    Follow us
+                  </UncontrolledTooltip>
+                  <Button
+                    className="btn-icon btn-neutral btn-round btn-simple ml-1"
+                    color="default"
+                    href="https://dribbble.com"
+                    id="tooltip750293512"
+                    target="_blank"
+                  >
+                    <i className="fab fa-linkedin" />
+                  </Button>
+                  <UncontrolledTooltip delay={0} target="tooltip750293512">
+                    Follow us
+                  </UncontrolledTooltip>
+                  <Button
+                    className="btn-icon btn-neutral btn-round btn-simple ml-1"
+                    color="default"
+                    href="https://dribbble.com"
+                    id="tooltip750293512"
+                    target="_blank"
+                  >
+                    <i className="fab fa-trello" />
                   </Button>
                   <UncontrolledTooltip delay={0} target="tooltip750293512">
                     Follow us

@@ -180,58 +180,7 @@ class Pricing extends React.Component {
               data-background-color="black"
               id="#download-section"
             >
-              <Container>
-                <br />
-                <br />
-                <br />
-                <Row className="row-grid align-items-center my-md">
-                  <Col lg="6">
-                    <h3 className="text-primary font-weight-light mb-2">
-                      Thank you for supporting us!
-                    </h3>
-                    <h4 className="mb-0 font-weight-light">
-                      Let's get in touch on any of these platforms.
-                    </h4>
-                  </Col>
-                  <Col className="text-lg-center btn-wrapper" lg="6">
-                    <Button
-                      className="btn-icon btn-round"
-                      color="twitter"
-                      id="twitter"
-                      size="lg"
-                    >
-                      <i className="fab fa-twitter" />
-                    </Button>
-                    <UncontrolledTooltip delay={0} target="twitter">
-                      Tweet!
-                    </UncontrolledTooltip>
-                    <Button
-                      className="btn-icon btn-round ml-1"
-                      color="facebook"
-                      id="facebook"
-                      size="lg"
-                    >
-                      <i className="fab fa-facebook-square" />
-                    </Button>
-                    <UncontrolledTooltip delay={0} target="facebook">
-                      Share!
-                    </UncontrolledTooltip>
-                    <Button
-                      className="btn-icon btn-round ml-1"
-                      color="github"
-                      href="https://github.com/creativetimofficial/ct-blk-design-system-pro-react"
-                      id="tooltip526539911"
-                      size="lg"
-                      target="_blank"
-                    >
-                      <i className="fab fa-github" />
-                    </Button>
-                    <UncontrolledTooltip delay={0} target="tooltip526539911">
-                      Star on Github
-                    </UncontrolledTooltip>
-                  </Col>
-                </Row>
-              </Container>
+             
             </div>
           </Container>
         </div>{" "}

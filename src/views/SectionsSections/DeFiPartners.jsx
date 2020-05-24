@@ -1037,7 +1037,7 @@ class DeFiPartners extends React.Component {
                     your projects. Keep you user engaged by providing meaningful
                     information.
                   </h4>
-                  <Button color="primary" size="lg">
+                  <Button color="success" size="lg">
                     Contact us
                   </Button>
                 </Col>

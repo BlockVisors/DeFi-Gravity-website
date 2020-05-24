@@ -40,6 +40,8 @@ import BVNavbar from "components/Navbars/BVNavbar.jsx";
 import DemoFooter from "components/Footers/DemoFooter.jsx";
 import DeFiParters from "../SectionsSections/DeFiPartners.jsx";
 import DeFiFaq from "../SectionsSections/DeFiFaq.jsx";
+import DeFiPartnerLogo from "../PresentationSections/DeFiPartnerLogo.jsx";
+
 
 
 import { chartExample1 } from "variables/charts.js";
@@ -150,7 +152,9 @@ class LandingPage extends React.Component {
                   <img
                     alt="..."
                     className="img-fluid"
-                    src={require("assets/img/etherum.png")}
+                    src={require("assets/img/BigDeFiGreen.png")}
+                    width="480"
+                    height="400"
                   />
                 </Col>
               </Row>
@@ -546,6 +550,7 @@ class LandingPage extends React.Component {
               </Row>
             </Container>
           </section>
+          <DeFiPartnerLogo />
           <DeFiFaq />
           <DemoFooter />
         </div>
