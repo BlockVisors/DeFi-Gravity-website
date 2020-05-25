@@ -50,23 +50,45 @@ class Pricing extends React.Component {
       <>
         <div className="section section-pricing" id="sectionBuy">
           <Container>
-            <div className="our-clients">
+            <div className="our-clients" id="logos">
               <Container>
+              <hr className="line-info" />
+              <h2 className="title" id="logo-title">The Technology</h2>
+              <br />
                 <Row>
-                  <Col className="ml-auto" xs="3">
+                  <Col className="ml-auto" xs="4"md="2" lg="2">
+                    <img
+                      alt="..."
+                      src={require("../../assets/img/truffle.png")}
+                    />
+                  </Col>
+                  <Col xs="4" md="2" lg="2">
+                    <img
+                      alt="..."
+                      src={require("../../assets/img/aavelogo.jpeg")}
+                      style={{ marginTop: "-15px" }}
+                    />
+                  </Col>
+                  <Col className="mr-auto" xs="4" md="2" lg="2">
+                    <img
+                      alt="..."
+                      src={require("../../assets/img/compound2.jpg")}
+                    />
+                  </Col>
+                  <Col className="ml-auto" xs="4"md="2" lg="2">
                     <img
                       alt="..."
                       src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/stanford-white.png"
                     />
                   </Col>
-                  <Col xs="3">
+                  <Col xs="2" md="2" lg="2">
                     <img
                       alt="..."
                       src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/mit-white.png"
                       style={{ marginTop: "-15px" }}
                     />
                   </Col>
-                  <Col className="mr-auto" xs="3">
+                  <Col className="mr-auto" xs="4" md="2" lg="2">
                     <img
                       alt="..."
                       src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/harvard-white.png"
@@ -75,12 +97,12 @@ class Pricing extends React.Component {
                 </Row>
               </Container>
             </div>
-            <Row id="pricing">
+            {/* <Row id="pricing">
               <Col className="ml-auto mr-auto text-center mt-5" md="8">
                 <h2 className="title">
-                  Ready to grab{" "}
+                  Ready to{" "}
                   <span className="text-primary">
-                    BLK• Design System PRO React
+                    Be Featured, Help out, or Join?
                   </span>
                   ?
                 </h2>
@@ -103,85 +125,21 @@ class Pricing extends React.Component {
                   </b>
                   .
                 </p>
-                <Row>
-                  <Col className="pt-lg-5 mt-lg-5" md="6">
-                    <Card className="card-pricing card-plain card-primary">
-                      <CardBody>
-                        <h4 className="title">Personal License</h4>
-                        <CardTitle tag="h1">
-                          <small>$</small>
-                          89
-                        </CardTitle>
-                        <ul>
-                          <li>
-                            <b>React/CSS/SASS</b> Files
-                          </li>
-                          <li>
-                            <b>Fully Coded</b> Components
-                          </li>
-                          <li>
-                            <b>Responsive</b> Design
-                          </li>
-                          <li>
-                            Product <b>Documentation</b>
-                          </li>
-                        </ul>
-                        <Button
-                          className="btn-round"
-                          color="info"
-                          href="https://www.creative-tim.com/buy/blk-design-system-pro-react?ref=blkdspr-presentation"
-                          target="_blank"
-                        >
-                          Buy Now!
-                        </Button>
-                      </CardBody>
-                    </Card>
-                  </Col>
-                  <Col className="pt-lg-5" md="6">
-                    <Card className="card-pricing card-plain card-primary">
-                      <CardBody>
-                        <h4 className="title">Developer License</h4>
-                        <CardTitle tag="h1">
-                          <small>$</small>
-                          359
-                        </CardTitle>
-                        <ul className="b-left">
-                          <li>Everything in Personal</li>
-                          <li>
-                            You can Create <b>Multiple Websites</b> <b>and</b>{" "}
-                            Sell to <b>Multiple Clients</b>
-                          </li>
-                          <li>
-                            <b>Or</b> You can <b> Charge Customers</b>
-                          </li>
-                          <li>
-                            <b>Or</b>Use in <b>Commercial Projects</b>
-                          </li>
-                          <li>
-                            <b>Or</b> Use in <b>SaaS Projects</b>
-                          </li>
-                        </ul>
-                        <Button
-                          className="btn-round"
-                          color="info"
-                          href="https://www.creative-tim.com/buy/blk-design-system-pro-react?ref=blkdspr-presentation"
-                          target="_blank"
-                        >
-                          Buy Now!
-                        </Button>
-                      </CardBody>
-                    </Card>
-                  </Col>
-                </Row>
+               
               </Col>
-            </Row>
-            <div
-              className="section section-download"
-              data-background-color="black"
-              id="#download-section"
-            >
-             
-            </div>
+            </Row> */}
+            <Row>
+                <Col className="ml-auto mr-auto text-center mt-4" md="8">
+                  <h3 className="title">Interested in Listing Your Project or Sponsoring a Challenge?</h3>
+                  <h4 className="description mb-5">
+                    Contact Us to developer commpany sponsored challenges and bounties targeting user acquistion or developer adoption.
+                  </h4>
+                  <Button color="success" size="lg">
+                    Contact us
+                  </Button>
+                </Col>
+              </Row>
+  
           </Container>
         </div>{" "}
       </>

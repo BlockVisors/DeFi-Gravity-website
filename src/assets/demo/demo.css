@@ -1568,3 +1568,52 @@
   padding-right: 20px;
  
 }
+#blogs {
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#f-challenges {
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+#logo-title {
+  padding-bottom: 30px;
+}
+
+#logos {
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    
+}
